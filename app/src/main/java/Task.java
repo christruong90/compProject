@@ -24,8 +24,8 @@ public class Task {
         return taskDate;
     }
 
-    public void setTaskDate(Date currentDate) {
-        this.taskDate = DateFormat.getDateTimeInstance().format(currentDate);
+    public void setTaskDate() {
+        this.taskDate = DateFormat.getDateTimeInstance().format(new Date());
     }
 
 }
