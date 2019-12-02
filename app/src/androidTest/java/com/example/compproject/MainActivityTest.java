@@ -33,7 +33,7 @@ public class MainActivityTest {
         Espresso.closeSoftKeyboard();
         // button click
         Espresso.onView(withId(R.id.buttonAddTask)).perform(click());
-        
+
     }
 
 
